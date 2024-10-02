@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-
+button{
+  gap: 5px;
+  background-color: lightpink;
+  color: black;
+  padding: 10px 40px 10px 40px;
+  border-radius: 10px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
