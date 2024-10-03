@@ -1,13 +1,7 @@
 .App {
   text-align: center;
 }
-button{
-  gap: 5px;
-  background-color: lightpink;
-  color: black;
-  padding: 10px 40px 10px 40px;
-  border-radius: 10px;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -41,4 +35,41 @@ button{
   to {
     transform: rotate(360deg);
   }
+}
+
+.addtask{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.addtask input{
+  width: 200px;
+  padding: 10px;
+  border-radius: 14px;
+  background-color: aliceblue;
+  color: black;
+}
+.addtask button{
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+}
+
+.taskList p{
+  padding: 10px;
+  max-width: 400px;
+  margin-left: 523px;
+  border-radius: 14px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskList p button{
+  padding: 2px;
+  background-color: aliceblue;
+  border: none;
 }
